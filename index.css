@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #ffffff;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+
+.myntra-home {
+  height: 45px;
+  
+}
+
+.logo-container {
+  margin-left: 4%;
+}
+
+.nav-bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+
+}
+
+.nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  padding: 27px 0px;
+  border-bottom: 4px solid #ffffff;
+}
+
+.nav-bar a:hover{
+  border-bottom: 4px solid #f54e77;
+}
+
+
+.nav-bar a sup {
+
+  text-decoration: underline;
+  color: #ff3f6c;
+  font-weight: 600;
+  font-size: 10px;
+
+}
+
+.search-bar {
+  height: 40px;
+  width: 30%;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+
+}
+
+.search-icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.search-input{
+  height: 40px;
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  border: 0;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.action-bar {
+  margin-right: 4%;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-bar .action-name {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.action-bar .action-icon {
+  font-weight: 300;
+}
+
+/* Main Section CSS */
+
+
+.banner-container{
+  margin: 40px 0px;
+}
+
+.banner-image{
+  width: 100%;
+}
+
+.category-heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category-items{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.sale-item{
+  width: 250px;
+}
+
+
+.footer-container-mount {
+  padding: 30px 0 40px 0;
+  /* background: #dfefff; */
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-container-out {
+  margin: 0px 210px 0px 210px;
+}
+
+
+.generic-info-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+.generic-info h3{
+  color: #282c3f;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.generic-info a{
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+}
+
+
+.popular-searches-container .heading{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #282c3f;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.keywords {
+  margin: 25px 0 45px 0;
+  line-height: 30px;
+
+}
+
+.keywords a {
+  text-decoration: none;
+  color: #94969f;
+  font-size: 16px;
+
+}
+
+.keywords>a::after {
+ content: "|";
+ margin-left: 5px;
+}
+
+.fiinfosection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.registered-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.registered-address .address-heading {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 700;
+}
+
+.cin-telephone {
+  display: flex;
+  float: right;
+  flex-direction: column;
+
+}
+
+.cin-telephone a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact-us, .copyright, .fk-company, .address, .cin-telephone{
+  color: #94969f;
+  font-size: 15pz;
+}
+
+.address-heading {
+  padding: 35px 0px;
+}
+
